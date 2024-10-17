@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Dados_Fase2_Cap1" id="2A210F2D-19A8-AFDE-9515-49F4B5FFA3E1" version="3.5">
+<createdBy>User</createdBy>
+<createdTime>2024-10-14 23:55:34 UTC</createdTime>
+<ownerDesignName>cap12</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2A210F2D-19A8-AFDE-9515-49F4B5FFA3E1</designId>
+</OSDM_Design>
