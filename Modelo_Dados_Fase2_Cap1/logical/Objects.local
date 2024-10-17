@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="1466E6F1-28BF-889A-9562-0FE9AD0AEAFE" name="T_AMBIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="12A3E40A-9666-ADAC-A144-1E3EF7BD9EE7" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5AA0C2BB-A8DE-72B4-675A-9046F86845EC" name="T_COLETA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="12A3E40A-9666-ADAC-A144-1E3EF7BD9EE7" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9B6AE398-14FD-FE21-159C-FBBB278ACAE8" name="T_NIVEL_CONFORTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="12A3E40A-9666-ADAC-A144-1E3EF7BD9EE7" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="AB42AC3A-02D9-98B5-0BC7-EAD6E9E52E92" name="POSSUIv1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="12A3E40A-9666-ADAC-A144-1E3EF7BD9EE7" propertySourceId="1466E6F1-28BF-889A-9562-0FE9AD0AEAFE" propertyTargetId="5AA0C2BB-A8DE-72B4-675A-9046F86845EC"/>
+   <object objectType="Relation" objectID="FFD1D433-0B35-8C46-4548-82B5D827AE58" name="possui3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="12A3E40A-9666-ADAC-A144-1E3EF7BD9EE7" propertySourceId="5AA0C2BB-A8DE-72B4-675A-9046F86845EC" propertyTargetId="9B6AE398-14FD-FE21-159C-FBBB278ACAE8"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B6AE398-14FD-FE21-159C-FBBB278ACAE8" name="T_NIVEL_CONFORTO">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:45:22 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_conforto" id="5FB3621F-2632-E451-CC5B-281E1C069AD6">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:45:35 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_coleta" id="2E1B6BE9-9319-97C0-5800-20C5E2AC715E">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 02:09:34 UTC</createdTime>
+<generatorID>FFD1D433-0B35-8C46-4548-82B5D827AE58</generatorID>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="true"/>
+</engineerTo>
+<referedAttribute>6F6E6F40-55B2-AD64-34B2-4AAE03612399</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel" id="8E980EF8-0CB5-529E-8CA5-B117AFA92022">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:46:13 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B44CF57-3A0E-5C56-5831-02D4076B74F0" name="T_NIVEL_CONFORTO PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:45:49 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FB3621F-2632-E451-CC5B-281E1C069AD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

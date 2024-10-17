@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB1527F8-A353-87EA-4273-607C742F365D" name="T_NIVEL_CONFORTO">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:51:35 UTC</createdTime>
+<generatorID>9B6AE398-14FD-FE21-159C-FBBB278ACAE8</generatorID>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_conforto" id="AD93CC11-103E-3A0F-2B80-E84860ECB975">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:51:35 UTC</createdTime>
+<generatorID>5FB3621F-2632-E451-CC5B-281E1C069AD6</generatorID>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel" id="122EA486-FF6D-F5BC-79EC-A4231CBE5901">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:51:35 UTC</createdTime>
+<generatorID>8E980EF8-0CB5-529E-8CA5-B117AFA92022</generatorID>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_COLETA_id_coleta" id="A9B6A71C-B20F-8F9C-C2F5-94D6A2E07BD5">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:51:35 UTC</createdTime>
+<generatorID>0E337DCB-D254-5BDD-A116-3842A6932945</generatorID>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_COLETA_id_coleta1" id="EC95F323-D042-251E-7ADB-EB16FDAE0CE6">
+<createdBy>User</createdBy>
+<createdTime>2024-10-16 21:42:12 UTC</createdTime>
+<generatorID>2E1B6BE9-9319-97C0-5800-20C5E2AC715E</generatorID>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73A01638-5473-3FAD-F5DE-0B5BB7E2D686" name="T_NIVEL_CONFORTO_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:51:35 UTC</createdTime>
+<generatorID>2B44CF57-3A0E-5C56-5831-02D4076B74F0</generatorID>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD93CC11-103E-3A0F-2B80-E84860ECB975"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F63EA22-1D0F-A40F-1194-75C0A5E0256D" name="T_NIVEL_CONFORTO__IDX">
+<createdBy>User</createdBy>
+<createdTime>2024-10-16 21:42:12 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FFD1D433-0B35-8C46-4548-82B5D827AE58</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A9B6A71C-B20F-8F9C-C2F5-94D6A2E07BD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B03B1275-B744-F58E-4E9E-ECEB27113143" name="T_NIVEL_CONFORTO__IDXv1">
+<createdBy>User</createdBy>
+<createdTime>2024-10-16 21:43:39 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FFD1D433-0B35-8C46-4548-82B5D827AE58</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EC95F323-D042-251E-7ADB-EB16FDAE0CE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

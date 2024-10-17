@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1466E6F1-28BF-889A-9562-0FE9AD0AEAFE" name="T_AMBIENTE">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:05:55 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ambiente" id="CC81BD1B-5B03-44DD-C08B-97731892C633">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:06:05 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_ambiente" id="EEF519F5-4CCF-9C86-C417-ACFF2AB1C583">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:06:21 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EABCB2E-C33D-02FB-A45D-FC48341BAAD9" name="T_AMBIENTE PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:06:14 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC81BD1B-5B03-44DD-C08B-97731892C633</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

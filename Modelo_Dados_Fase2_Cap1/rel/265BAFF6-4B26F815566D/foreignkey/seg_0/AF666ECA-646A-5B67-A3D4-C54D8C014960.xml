@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF666ECA-646A-5B67-A3D4-C54D8C014960" containerWithKeyObject="143BE9B0-69C4-D6BE-325D-F0B72DCA6545" localFKIndex="D4363D0E-3DB5-908D-73D5-55144D8E05BF" name="T_COLETA_T_AMBIENTE_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:51:35 UTC</createdTime>
+<generatorID>AB42AC3A-02D9-98B5-0BC7-EAD6E9E52E92</generatorID>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<referredTableLongName>T_AMBIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>18ABB473-EEB3-8995-E75F-3E7690089B28</referredTableID>
+<keyObject>050E1533-B26B-DB80-7D36-36977AD9C766</keyObject>
+<referredKeyID>050E1533-B26B-DB80-7D36-36977AD9C766</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ambiente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="143BE9B0-69C4-D6BE-325D-F0B72DCA6545" name="T_COLETA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="18ABB473-EEB3-8995-E75F-3E7690089B28" name="T_AMBIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="CB1527F8-A353-87EA-4273-607C742F365D" name="T_NIVEL_CONFORTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="AF666ECA-646A-5B67-A3D4-C54D8C014960" name="T_COLETA_T_AMBIENTE_FK" containerID="143BE9B0-69C4-D6BE-325D-F0B72DCA6545" refContainerID="18ABB473-EEB3-8995-E75F-3E7690089B28" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" propertySourceId="18ABB473-EEB3-8995-E75F-3E7690089B28" propertyTargetId="143BE9B0-69C4-D6BE-325D-F0B72DCA6545"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

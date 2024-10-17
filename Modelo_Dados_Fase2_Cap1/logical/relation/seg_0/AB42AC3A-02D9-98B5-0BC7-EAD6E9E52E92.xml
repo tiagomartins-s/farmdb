@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSSUIv1" directorySegmentName="seg_0" id="AB42AC3A-02D9-98B5-0BC7-EAD6E9E52E92">
+<createdBy>User</createdBy>
+<createdTime>2024-10-15 00:09:39 UTC</createdTime>
+<ownerDesignName>Modelo_Dados_Fase2_Cap1</ownerDesignName>
+<engineerTo>
+<item key="265BAFF6-C9E6-6DE7-7FFA-4B26F815566D" value="true"/>
+</engineerTo>
+<sourcePk>6EABCB2E-C33D-02FB-A45D-FC48341BAAD9</sourcePk>
+<dominantRole>1466E6F1-28BF-889A-9562-0FE9AD0AEAFE</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1466E6F1-28BF-889A-9562-0FE9AD0AEAFE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5AA0C2BB-A8DE-72B4-675A-9046F86845EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
